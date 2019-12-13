@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="8dp"
+        android:orientation="vertical"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <EditText
+            android:id="@+id/EditTextId"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/altura"
+            android:autoText="false"
+            android:hint="@string/HintUsuario"
+            android:inputType="textShortMessage" />
+
+        <Button
+            android:id="@+id/BotaoId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="@string/Logar"
+            android:text="@string/Logar" />
+
+        <TextView
+            android:id="@+id/textViewId"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/altura" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="145dp"
+            android:hint="@string/hintMensagem" />
+
+        <Button
+            android:id="@+id/buttonMensagem"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="@string/enviarMensagem"
+            android:text="@string/textoBotaoMensagem" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">P3Bossini</string>
+    <string name="HintUsuario">Insira aqui o nome de usuário</string>
+    <string name="textoLogar">Logar</string>
+    <string name="onClickLogar">Logar()</string>
+    <string name="textoBotaoMensagem">Enviar Mensagem</string>
+    <string name="hintMensagem">Digite sua mensagem aqui</string>
+    <string name="Logar">logar</string>
+    <string name="enviarMensagem">enviarMensagem</string>
+</resources>

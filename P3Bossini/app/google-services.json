@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "527076890571",
+    "firebase_url": "https://p3bossini.firebaseio.com",
+    "project_id": "p3bossini",
+    "storage_bucket": "p3bossini.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:527076890571:android:53c70e69a497867b58484e",
+        "android_client_info": {
+          "package_name": "com.P3Bossini"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "527076890571-75kpf5tc8nmk0vgtgs2ddgf4u39623ai.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD7qy93C4C32icUMZjsF5dVXiaMJfqLzsQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "527076890571-75kpf5tc8nmk0vgtgs2ddgf4u39623ai.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
